@@ -1,0 +1,40 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+.env
+
+# Build artifacts
+build/
+*.egg-info/
+
+# uv
+uv/
+
+# Virtual environments
+.venv/
+env/
+venv/
+__pypackages__/
+
+# Docker
+*.pid
+*.sock
+docker-compose.override.yml
+docker-compose.yml
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Test and coverage
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+pytest_cache/
+
+# Local development
+.env.*
